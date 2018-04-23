@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Application>
+	<Views>
+		<ListView Id="Category_ListView" AllowEdit="True">
+			<Columns>
+				<ColumnInfo Id="Name" AllowEdit="False" />
+				<ColumnInfo Id="Person" AllowEdit="True" />
+				<ColumnInfo Id="Active" AllowEdit="True" />
+			</Columns>
+		</ListView>
+	</Views>
+</Application>
