@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [TreeListInplaceEditViewController.cs](./CS/WinSolution.Module.Win/TreeListInplaceEditViewController.cs) (VB: [TreeListInplaceEditViewController.vb](./VB/WinSolution.Module.Win/TreeListInplaceEditViewController.vb))
+<!-- default file list end -->
 # TreeListEditor - How to enable in-place editing in the WinForms tree List View (XPO)
 
 
