@@ -75,6 +75,9 @@ Namespace WinSolution.Module.Win
             End If
         End Sub
         Private Sub treeList_CellValueChanged(ByVal sender As Object, ByVal e As CellValueChangedEventArgs)
+            If Not e.ChangedByUser Then
+                Return
+            End If
             Dim treeList As ObjectTreeList = DirectCast(sender, ObjectTreeList)
             Dim newValue As Object = e.Value
             If TypeOf e.Value Is IXPSimpleObject Then

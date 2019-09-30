@@ -72,6 +72,8 @@ namespace WinSolution.Module.Win {
             }
         }
         private void treeList_CellValueChanged(object sender, CellValueChangedEventArgs e) {
+            if (!e.ChangedByUser)
+                return;
             ObjectTreeList treeList = (ObjectTreeList)sender;
             object newValue = e.Value;
             if (e.Value is IXPSimpleObject)
